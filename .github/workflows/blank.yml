@@ -23,6 +23,7 @@ jobs:
 
     - name: 02- 生成文件
       run : |
+        mkdir  -p artifacts/
         mv test.tar artifacts/
 
         
