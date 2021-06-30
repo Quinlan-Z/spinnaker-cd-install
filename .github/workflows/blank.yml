@@ -4,6 +4,7 @@ env:
   #REGISTRY_URL: "gcr.io/spinnaker-marketplace/"
   IMAGE_NAME: "quay.azk8s.cn/coreos/prometheus-config-reloader:v0.36.0"
 
+
 on:
   push:
     paths:
